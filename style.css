@@ -29,7 +29,6 @@ body {
     place-items: center;
     height: 50vh;
     display: grid;
-    
 }
 
 .header {
@@ -126,7 +125,7 @@ span {
     font-size: 7rem;
     line-height: 1;
     font-weight: 700;
-    margin-bottom: 2.9rem;
+    margin-bottom: 3rem;
 }
 
 .text-name{
@@ -798,10 +797,6 @@ ul {
   .example-2 .icon-content a[data-social="Email"] ~ .tooltip {
       background-color: #35a4ff; 
   }
-  
-  
-
-
   
   /* mobile */
   @media (min-width: 320px) and (max-width: 767px) {
