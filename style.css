@@ -20,7 +20,7 @@
 html {
     font-size: 62.5%;
     font-weight: bold;
-    overflow-x: hidden;
+    
 }
 
 body {
@@ -29,6 +29,7 @@ body {
     place-items: center;
     height: 50vh;
     display: grid;
+    
 }
 
 .header {
@@ -804,7 +805,7 @@ ul {
         font-size: 2.7rem;
     }
     .home{
-        margin-top: -32rem;
+        margin-top: -78rem;
     }
    .home-content h3{
     font-size: 6rem;
@@ -826,7 +827,7 @@ ul {
     width: 28rem;
     font-size: 3.5rem;
     border-radius: 24;
-    margin-top: 10rem;
+    margin-top: 5rem;
    }
     .about-content h2{
         margin-top: -15rem;
@@ -840,13 +841,13 @@ ul {
     margin-top: 100rem;
   }
   .about{
-    margin-top: 90rem;
+    margin-top: 35rem;
   }
   .img-about{
     width: 90rem;
   }
   .heading{
-    margin-top: -19rem;
+    margin-top: 6rem;
   }
   .heading span{
     font-size: 8rem;
@@ -855,11 +856,11 @@ ul {
     margin-top: -2rem;
   }
   .project-content p{
-    margin-top: -5rem;
+    margin-top: 19rem;
     font-size: 2.3rem;
  }
   .text-project{
-    margin-top: 4rem;
+    margin-top: 7rem;
   }
   .code-color{
     margin-top: 5rem;
@@ -876,7 +877,7 @@ ul {
     width: 80%;
   }
   .contact-content h1{
-    margin-top: 40rem;
+    margin-top: 10rem;
   }
   .text-what-next .text-see-you{
     margin-left: 1rem;
@@ -892,6 +893,8 @@ ul {
   
   /* iPad Pro */
   @media (min-width: 768px) and (max-width: 1024px) {
+
+    
     .header a{
         font-size: 2.7rem;
     }
