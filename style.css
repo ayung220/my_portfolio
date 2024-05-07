@@ -73,12 +73,6 @@ body {
     border-bottom: 3px solid var(--main-color);
 }
 
-#menu-icon {
-    font-size: 3.6rem;
-    color: var(--main-color);
-    display: none;
-}
-
 section {
     min-height: 95vh;
     width: 100%;
@@ -99,7 +93,7 @@ section {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 span {
@@ -255,7 +249,7 @@ span {
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    margin-top: 10rem;
+    margin-top: 15rem;
    
 }
 
@@ -271,7 +265,7 @@ span {
     margin: 0 auto;
     display: flex;
     gap: 1em;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .row {
@@ -365,7 +359,7 @@ span {
     text-align: center;
     color: #0b5c9b;
     font-weight: 800;
-    margin-top: 27px;
+    margin-top: 20px;
 }
 
 .img-work {
@@ -457,14 +451,14 @@ span {
 
 .project {
     gap : 20rem;
-    margin-top: 10rem;
+    margin-top: 2rem;
 }
 
 .text-project {
     text-align: center; 
     font-size: 14px; 
     color: #4949498d;
-    margin-top: 10vw;
+    margin-top: 1vw;
     
 }
 
@@ -619,7 +613,7 @@ span {
     font-size: 80px;
     text-align: center;
     margin-bottom: 80px;
-    margin-top: 25vw;
+    margin-top: 10vw;
     font-weight: bold;
 }
 
