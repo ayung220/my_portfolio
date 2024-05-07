@@ -383,7 +383,7 @@ span {
     margin-left: 40px;
     color: #7BA86C;
     font-weight: 800;
-    margin-top: 60px;
+    margin-top: 40px;
 }
 
 .text-adaptable-p{
@@ -392,12 +392,12 @@ span {
     margin-left: 40px;
     color: #626262;
     font-weight: 400;
-    margin-top: 9px;
+    margin-top: -30px;
 }
 
 .img-quote {
     width: 40px;
-    margin-top: 10px;
+    margin-top: 2px;
 }
 
 .text-quote {
@@ -406,7 +406,7 @@ span {
     margin-left: 40px;
     color: #252525;
     font-weight: 800;
-    margin-top: 9px;
+    margin-top: 15px;
 }
 
 .text-isi-quote {
@@ -606,6 +606,7 @@ span {
     font-weight: 400px;
     color: #636363;
     width: 70%;
+    text-align: justify;
 }
 
 .contact {
@@ -803,196 +804,190 @@ ul {
 
   
   /* mobile */
-  @media (min-width: 360px) and (max-width: 926px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     .header a{
-        font-size: 27px;
+        font-size: 2.7rem;
     }
     .home{
-        margin-top: -35rem;
+        margin-top: -32rem;
     }
    .home-content h3{
-    font-size: 60px;
+    font-size: 6rem;
     font-weight: 600;
    }
    .hand-img{
-    height: 50px;
-    width: 60px;
+    height: 5rem;
+    width: 6rem;
    }
    .home-img img{
-    height: 90vw;
-    width: 90vw;
+    height: 29rem;
+    width: 29rem;
    }
    .home-content p{
-    font-size: 50px;
+    font-size: 5rem;
    }
    .button{
-    height: 22vw;
-    width: 80vw;
-    font-size: 35px;
+    height: auto;
+    width: 28rem;
+    font-size: 3.5rem;
     border-radius: 24;
-    margin-top: 10vw;
+    margin-top: 10rem;
    }
     .about-content h2{
         margin-top: -15rem;
-        font-size: 60px;
-        margin-bottom: 10vw;
+        font-size: 6rem;
+        margin-bottom: 10rem;
     }
     .about-content .me{
-        font-size: 60px;
+        font-size: 6rem;
     }
   .home-content {
-    margin-top: 300vw;
+    margin-top: 100rem;
   }
   .about{
-    margin-top: 240vw;
+    margin-top: 90rem;
   }
   .img-about{
-    width: 210vw;
+    width: 90rem;
   }
   .heading{
-    margin-top: -75vw;
+    margin-top: -19rem;
   }
   .heading span{
-    font-size: 80px;
+    font-size: 8rem;
   }
   .container{
-    margin-top: -10vw;
+    margin-top: -2rem;
   }
   .project-content p{
-    margin-top: -45vw;
-    font-size: 15px;
+    margin-top: -5rem;
+    font-size: 2.3rem;
  }
   .text-project{
-    margin-top: 40vw;
+    margin-top: 4rem;
   }
   .code-color{
-    margin-top: 13vw;
-    font-size: 12px;
+    margin-top: 5rem;
+    font-size: 1.6rem;
   }
   .shape{
-    width: 30vw;
-    height: 30vw;
+    width: 13rem;
+    height: 13rem;
   }
   .text-dimple-about h1{
-    margin-top: 30vw;
+    margin-top: 13rem;
   }
   .text-dimple-about{
     width: 80%;
   }
   .contact-content h1{
-    margin-top: 90vw;
+    margin-top: 40rem;
   }
   .text-what-next .text-see-you{
-    margin-left: 10vw;
-    margin-top: 20vw;
+    margin-left: 1rem;
+    margin-top: 8rem;
   }
 
  .example-2{
-    margin-top: 15vw;
-    gap: 10vw;
+    margin-top: 4rem;
+    gap: 3rem;
  }
   }
 
-  /* Galaxy Z Fold 5 */
-  @media (max-width: 344px) {
-    .header a{
-        font-size: 27px;
-    }
-    .home{
-        margin-top: -35rem;
-    }
-   .home-content h3{
-    font-size: 60px;
-    font-weight: 600;
-   }
-   .hand-img{
-    height: 50px;
-    width: 60px;
-   }
-   .home-img img{
-    height: 90vw;
-    width: 90vw;
-   }
-   .home-content p{
-    font-size: 50px;
-   }
-   .button{
-    height: 22vw;
-    width: 80vw;
-    font-size: 35px;
-    border-radius: 24;
-    margin-top: 10vw;
-   }
-    .about-content h2{
-        margin-top: -15rem;
-        font-size: 60px;
-        margin-bottom: 10vw;
-    }
-    .about-content .me{
-        font-size: 60px;
-    }
-  .home-content {
-    margin-top: 300vw;
-  }
-  .about{
-    margin-top: 240vw;
-  }
-  .img-about{
-    width: 210vw;
-  }
-  .heading{
-    margin-top: -75vw;
-  }
-  .heading span{
-    font-size: 80px;
-  }
-  .container{
-    margin-top: -10vw;
-  }
-  .project-content p{
-    margin-top: -45vw;
-    font-size: 15px;
- }
-  .text-project{
-    margin-top: 40vw;
-  }
-  .code-color{
-    margin-top: 13vw;
-    font-size: 12px;
-  }
-  .shape{
-    width: 30vw;
-    height: 30vw;
-  }
-  .text-dimple-about h1{
-    margin-top: 30vw;
-  }
-  .text-dimple-about{
-    width: 80%;
-  }
-  .contact-content h1{
-    margin-top: 90vw;
-  }
-  .text-what-next .text-see-you{
-    margin-left: 10vw;
-    margin-top: 20vw;
-  }
-
- .example-2{
-    margin-top: 15vw;
-    gap: 10vw;
- }
-  }
-  
-  
-  /* iPad Air */
-  @media (min-width: 769px) and (max-width: 1024px) {
-    /* Styles untuk iPad air */
-  }
   
   /* iPad Pro */
-  @media (min-width: 1025px) and (max-width: 1365px) {
-    /* Styles untuk iPad Pro */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .header a{
+        font-size: 2.7rem;
+    }
+    .home{
+        margin-top: -35rem;
+    }
+   .home-content h3{
+    font-size: 6rem;
+    font-weight: 600;
+   }
+   .hand-img{
+    height: 5rem;
+    width: 6rem;
+   }
+   .home-img img{
+    height: 29rem;
+    width: 29rem;
+   }
+   .home-content p{
+    font-size: 5rem;
+   }
+   .button{
+    height: auto;
+    width: 28rem;
+    font-size: 3.5rem;
+    border-radius: 24;
+    margin-top: 10rem;
+   }
+    .about-content h2{
+        margin-top: -15rem;
+        font-size: 6rem;
+        margin-bottom: 10rem;
+    }
+    .about-content .me{
+        font-size: 6rem;
+    }
+  .home-content {
+    margin-top: 100rem;
+  }
+  .about{
+    margin-top: 90rem;
+  }
+  .img-about{
+    width: 80rem;
+  }
+  .heading{
+    margin-top: -39rem;
+  }
+  .heading span{
+    font-size: 8rem;
+  }
+  .container{
+    margin-top: -2rem;
+    width: 100%; /* Menyesuaikan lebar container */
+        margin-left: auto; /* Menyelaraskan container ke tengah */
+        margin-right: auto; /* Menyelaraskan container ke tengah */
+        max-width: 1200px; /* Maksimal lebar container */
+  }
+  .project-content p{
+    margin-top: -15rem;
+    font-size: 2.3rem;
+ }
+  .text-project{
+    margin-top: 4rem;
+  }
+  .code-color{
+    margin-top: 5rem;
+    font-size: 1.6rem;
+  }
+  .shape{
+    width: 13rem;
+    height: 13rem;
+  }
+  .text-dimple-about h1{
+    margin-top: 13rem;
+  }
+  .text-dimple-about{
+    width: 80%;
+  }
+  .contact-content h1{
+    margin-top: 19rem;
+  }
+  .text-what-next .text-see-you{
+    margin-left: 1rem;
+    margin-top: 8rem;
+  }
+
+ .example-2{
+    margin-top: 4rem;
+    gap: 3rem;
+ }
   }
   
   /* Surface Pro 7 */
@@ -1010,4 +1005,4 @@ ul {
     /* Styles untuk Asus ZenFold 5 */
   }
   
-
+ 
